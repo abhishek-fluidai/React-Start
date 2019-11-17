@@ -1,0 +1,43 @@
+/*CSS Document*/
+  * {
+    font-family: open sans;
+
+  }
+ .section {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 2px solid  #ccc;
+    padding: 20px;
+    max-width: 260px;
+    overflow: hidden;
+    border-radius: 16px;
+    color: white;
+    background: linear-gradient(to right, #fc6767, #ec008c);
+
+    }
+
+    .cre {
+    color: #09d3ac;;
+  }
+
+  input {
+     margin-top: 10px;
+     padding: 10px 10px;
+     border-radius: 25px;
+     font-size: 15px;
+     border: 3px solid;
+     border-color: rgba(50, 115, 220, 0.3);
+ 
+  }
+
+  .btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px 40px;
+  outline: 1px  #ec008c;
+  border-radius: 28px;
+    background-image: linear-gradient(to right top, #781ad5, #662ed7, #523bd8, #3c44d7, #1f4bd5);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  }
