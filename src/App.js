@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import Person from './Person/person'
+import styles from './App.module.css';
+import Person from './Person/person.js'
 
 class App extends React.Component {
    state = {
@@ -81,15 +81,16 @@ background: 'linear-gradient(to right, #fc6767, #ec008c)',/* W3C, IE 10+/ Edge, 
   }
 
   return (
-  <StyleRoot>
-    <div className="App">    
-      <h1> React.js (working with state)</h1>
+
+    <div className={styles['App']}>    
+      <h1  > React.js (working with state)</h1>
       <p className={classes.join(' ')} style={style} > This id Really working! </p>
-      <button onClick={this.togglePersonsHandler } className="btn"> Switch </button>
+      <button onClick={this.togglePersonsHandler } className={styles["btn"]}> Switch </button>
+  
       {persons}
 
     </div>
-    </StyleRoot>
+   
   );
 }
 }
