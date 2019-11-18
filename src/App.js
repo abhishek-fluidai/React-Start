@@ -94,4 +94,4 @@ background: 'linear-gradient(to right, #fc6767, #ec008c)',/* W3C, IE 10+/ Edge, 
 }
 }
 
-export default App;
+export default App ;
