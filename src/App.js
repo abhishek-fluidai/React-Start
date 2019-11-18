@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Radium, { StyleRoot } from 'radium';
 import Person from './Person/person'
 
 class App extends React.Component {
@@ -51,10 +50,7 @@ class App extends React.Component {
     color: 'white',
     cursor: 'pointer',
 background: 'linear-gradient(to right, #fc6767, #ec008c)',/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  ':hover': {
-    background: '#ec008c',
-    color: 'green',
-    }
+ 
   }
 
   let persons = null;
@@ -72,11 +68,7 @@ background: 'linear-gradient(to right, #fc6767, #ec008c)',/* W3C, IE 10+/ Edge, 
           })}
         </div>
     );
-      //style overwrite
-      style[':hover'] = {
-        background: '#fc6767',
-        color:'skyblue',
-      }
+  
 
   } //If condition ends.
 
@@ -102,4 +94,4 @@ background: 'linear-gradient(to right, #fc6767, #ec008c)',/* W3C, IE 10+/ Edge, 
 }
 }
 
-export default Radium(App);
+export default App;
